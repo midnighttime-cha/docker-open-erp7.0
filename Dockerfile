@@ -1,5 +1,4 @@
 FROM ubuntu:12.04
-RUN sudo apt-get update && sudo apt-get upgrade
 RUN sudo apt-get install python-dateutil python-feedparser python-gdata python-ldap \
     python-libxslt1 python-lxml python-mako python-openid python-psycopg2 python-pybabel \
     python-pychart python-pydot python-pyparsing python-reportlab python-simplejson \
